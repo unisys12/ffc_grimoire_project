@@ -1,0 +1,14 @@
+{
+  "name": "grimoire-csv",
+  "version": "1.0.0",
+  "description": "Gather Destiny Grimoire into a CSV file",
+  "main": "index.js",
+  "author": "Phillip Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  }
+}
