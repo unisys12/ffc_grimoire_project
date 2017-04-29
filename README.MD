@@ -12,8 +12,8 @@ Project is just getting started, so... hop on board!
 
 ## To-Do-List
 <dl>
-  <dt>Move Core Methods</dt>
-  <dd>Currently, the only core method somewhat working is `fetchGrimoire()`. It resides in `index.js` since this is the first one that I started work on. Once the current issues with it are resolved, I can move it out into it's on sub-folder.</dd>
+  <dt>Create Items Logic</dt>
+  <dd>Currently, the Grimoire logic is working with an example output file in the root directory. I just need to remove the HTTP Request calls for the items from Ishtar/Grimoire into a Ishtar/Items file. </dd>
   <dt>Create Core Logic</dt>
   <dd>The core logic will reside within `index.js`. It will interprate cmds given at the cmd line and based in that, create a Grimoire csv file or a Items csv file.</dd>
 <dl>
