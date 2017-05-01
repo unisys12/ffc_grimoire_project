@@ -10,10 +10,13 @@ At this early stage, there is no build process in place and really don't know if
 ## Current Status
 Project is just getting started, so... hop on board!
 
+## Usage
+At the moment, for useage examples just check `index.js` in the projects src folder.
+
 ## To-Do-List
 <dl>
-  <dt>Create Items Logic</dt>
-  <dd>Currently, the Grimoire logic is working with an example output file in the root directory. I just need to remove the HTTP Request calls for the items from Ishtar/Grimoire into a Ishtar/Items file. </dd>
   <dt>Create Core Logic</dt>
   <dd>The core logic will reside within `index.js`. It will interprate cmds given at the cmd line and based in that, create a Grimoire csv file or a Items csv file.</dd>
+  <dt>Work on Drive Intergration</dt>
+  <dd>I have the basics in place, but failed to work-out authenication.</dd>
 <dl>
