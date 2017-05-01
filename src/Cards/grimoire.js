@@ -58,8 +58,9 @@ let Grimoire = (()=>{
                "card_attribution": x.intro_attribution,
                "card_description": x.description,
                "image_url": x.full_image_url,
-            })             
+            })            
            })
+           
         }
 
         } catch (error) {

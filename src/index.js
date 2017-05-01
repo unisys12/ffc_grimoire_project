@@ -1,10 +1,30 @@
 require('babel-polyfill')
-let Grimoire = require('./Ishtar/grimoire')
+//const Grimoire = require('./Cards/grimoire')
+const Themed = require('./Cards/themeGrimoire')
+const Inventory = require('./Inventory')
 
-let cards = Grimoire.cards()
 
-cards.then((res)=>{
-  console.log(res)
-}).catch((err)=>{
-  console.log('ERROR', err)
-})
+/**
+ * Example to generate Grimoire Cards CSV
+ */
+//let cards = Grimoire.cards()
+
+/**
+ * Example to generate Themed Grimoire CSV
+ */
+//let themes = Themed.themeCollections()
+
+/**
+ * Example to generate Grimoire Pages
+ */
+// let pages = Themed.pageCollections()
+
+/**
+ * Example to generate Grimoire Cards
+ */
+// let cards = Themed.cardCollections()
+
+/**
+ * Example to generate Inventory Item CSV
+ */
+let items = Inventory.getItems()

@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "axios": "^0.16.1",
-    "csv-write-stream": "^2.0.0"
+    "csv-write-stream": "^2.0.0",
+    "googleapis": "^19.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-polyfill": "^6.23.0",
-    "babel-preset-env": "^1.4.0"
+    "babel-preset-env": "^1.4.0",
+    "dotenv": "^4.0.0"
   }
 }

@@ -38,3 +38,9 @@ jspm_packages
 
 # Distribution Directory
 dist
+
+# Local Enviroment Vars
+.env
+.env.developement
+client_id.json
+client_secret.json
